@@ -15,7 +15,7 @@ public class Tester {
         System.out.println(n.get(5));
         System.out.println(n.set(5,"ok"));
         n.printList();
-
-
+        n.insertFirst("LMAO");
+        n.printList();
     }
 }

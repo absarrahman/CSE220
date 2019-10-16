@@ -61,5 +61,11 @@ public class LinkedList {
         return oldElem;
     }
 
+    public void insertFirst(Object elem){
+        Node n = new Node(elem);
+        n.next=head;
+        head=n;
+    }
+
 
 }
