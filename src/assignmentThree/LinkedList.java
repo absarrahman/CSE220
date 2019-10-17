@@ -67,5 +67,11 @@ public class LinkedList {
         head=n;
     }
 
-
+    public void insertLast(Object elem){
+        Node n = new Node(elem);
+        n.next=null;
+        Node i;
+        for (i=head;i.next!=null;i=i.next){}
+        i.next=n;
+    }
 }

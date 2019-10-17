@@ -17,5 +17,7 @@ public class Tester {
         n.printList();
         n.insertFirst("LMAO");
         n.printList();
+        n.insertLast("Mama");
+        n.printList();
     }
 }
