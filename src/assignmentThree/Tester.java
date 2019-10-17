@@ -19,5 +19,7 @@ public class Tester {
         n.printList();
         n.insertLast("Mama");
         n.printList();
+        n.insertInAnyIndex(2,"Haire");
+        n.printList();
     }
 }

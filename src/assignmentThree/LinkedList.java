@@ -76,4 +76,36 @@ public class LinkedList {
         i.next=n;
         size++;
     }
+
+    public void insertInAnyIndex(int index,Object elem){
+        Node n = new Node(elem);
+        if(head==null){
+            head=n;
+        }
+
+        //If the index is 0 then it inserts the value there
+
+        if (head != null && index == 0) {
+            insertFirst(elem);
+            return;
+        }
+
+        Node currentNode=head; //for tracing current node
+        Node previousNode=null;//for tracing previous node
+        int c = 0;
+
+        while (c < index) {
+            previousNode = currentNode;
+            currentNode = currentNode.next;
+
+            if (currentNode == null) {
+                break;
+            }
+            c++;
+        }
+        n.next = currentNode;
+        previousNode.next = n;
+        size++;
+    }
+
 }
