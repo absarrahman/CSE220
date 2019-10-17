@@ -118,8 +118,38 @@ public class LinkedList {
         for (Node n=head;n!=null;n=n.next){
             if(count==size-1){
                 n.next=null;
+                break;
             }
             count++;
+        }
+        size--;
+    }
+
+    public void removeElementFromAnyIndex(int index){
+        Node otherStart=null;// Next node of index node
+        int  count=0;
+        if(index==0){
+            removeFirst();
+            return;
+        }
+        if(index==size-1){
+            removeLast();
+            return;
+        }
+        for (Node n=head;n!=null;n=n.next){
+            if(count==index){
+                otherStart=n.next;
+                break;
+            }
+            count++;
+        }
+        int indexC=0;
+        for (Node n=head;n!=null;n=n.next){
+            if(indexC==index-1){
+                n.next=otherStart;
+                break;
+            }
+            indexC++;
         }
         size--;
     }

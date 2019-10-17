@@ -25,5 +25,7 @@ public class Tester {
         n.printList();
         n.removeLast();
         n.printList();
+        n.removeElementFromAnyIndex(6);
+        n.printList();
     }
 }
