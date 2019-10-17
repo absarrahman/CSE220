@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa22f21a-ccb1-42e5-9c59-fdcde1d4f202" name="Default Changelist" comment="Assignment 3: Add insertInAnyIndex method">
+    <list default="true" id="aa22f21a-ccb1-42e5-9c59-fdcde1d4f202" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Assignment/assignmentThree/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/assignmentThree/LinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Assignment/assignmentThree/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/assignmentThree/Tester.class" afterDir="false" />
@@ -87,6 +87,14 @@
       <option name="presentableId" value="Default" />
       <updated>1571237263512</updated>
     </task>
+    <task id="LOCAL-00001" summary="Assignment 3: Add insertInAnyIndex method">
+      <created>1571334063237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571334063237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -108,4 +108,20 @@ public class LinkedList {
         size++;
     }
 
+    public void removeFirst(){
+        head=head.next;
+        size--;
+    }
+
+    public void removeLast(){
+        int count = 1;
+        for (Node n=head;n!=null;n=n.next){
+            if(count==size-1){
+                n.next=null;
+            }
+            count++;
+        }
+        size--;
+    }
+
 }
