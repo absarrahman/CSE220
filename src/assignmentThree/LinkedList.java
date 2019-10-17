@@ -65,6 +65,7 @@ public class LinkedList {
         Node n = new Node(elem);
         n.next=head;
         head=n;
+        size++;
     }
 
     public void insertLast(Object elem){
@@ -73,5 +74,6 @@ public class LinkedList {
         Node i;
         for (i=head;i.next!=null;i=i.next){}
         i.next=n;
+        size++;
     }
 }
