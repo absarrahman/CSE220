@@ -154,4 +154,19 @@ public class LinkedList {
         size--;
     }
 
+    public boolean search(Object e,int index){
+        int count=-1;
+        for (Node n = head;n!=null;n=n.next){
+            count++;
+            if (count==index){
+                if(e==n.element){
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        }
+        System.out.println("Error.Index limit is up to "+(size-1));
+        return false;
+    }
 }

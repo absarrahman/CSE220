@@ -12,7 +12,7 @@ public class Tester {
 
         n.printList(); //prints list
         n.countNode(); // tells number of nodes
-        System.out.println(n.get(5));
+        System.out.println(n.get(2));
         System.out.println(n.set(5,"ok"));
         n.printList();
         n.insertFirst("LMAO");
@@ -27,5 +27,6 @@ public class Tester {
         n.printList();
         n.removeElementFromAnyIndex(6);
         n.printList();
+        System.out.println(n.search("9_Absar_17",1));
     }
 }
