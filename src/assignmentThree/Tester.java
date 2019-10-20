@@ -28,5 +28,8 @@ public class Tester {
         n.removeElementFromAnyIndex(6);
         n.printList();
         System.out.println(n.search("9_Absar_17",1));
+        LinkedList n2 = new LinkedList();
+        n2.head=n.reverseLinkedList(n.head);
+        n2.printList();
     }
 }

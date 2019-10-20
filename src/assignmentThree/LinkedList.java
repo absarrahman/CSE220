@@ -169,4 +169,19 @@ public class LinkedList {
         System.out.println("Error.Index limit is up to "+(size-1));
         return false;
     }
+
+    public Node reverseLinkedList(Node n)
+    {
+        Node prev = null;
+        Node current = n;
+        Node next;
+        while (current != null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        return prev;
+    }
+
 }
