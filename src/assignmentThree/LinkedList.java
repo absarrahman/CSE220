@@ -183,5 +183,20 @@ public class LinkedList {
         }
         return prev;
     }
+    public void rotateLeft(){
+        Node h=head;
+        Node tail;
+        if(head.next!=null){
+            head=head.next;
+            tail=head;
+        } else {
+            tail=head;
+        }
+        while (tail.next!=null){
+            tail=tail.next;
+        }
+        tail.next=h;
+        h.next=null;
+    }
 
 }

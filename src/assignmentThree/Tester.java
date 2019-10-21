@@ -11,6 +11,8 @@ public class Tester {
         n.add((8+6)+"_Absar_"+(7+60));
 
         n.printList(); //prints list
+        n.rotateLeft();
+        n.printList();
         n.countNode(); // tells number of nodes
         System.out.println(n.get(2));
         System.out.println(n.set(5,"ok"));
